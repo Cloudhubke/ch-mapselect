@@ -1,0 +1,26 @@
+{
+  "name": "ch-mapselect",
+  "version": "1.0.7",
+  "authors": [
+    "Gaithoben <gaithoben@gmail.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "ch-mapselect.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/cloudhubke/ch-mapselect/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  }
+}
