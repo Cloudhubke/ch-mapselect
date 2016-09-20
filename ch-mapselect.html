@@ -2,6 +2,8 @@
 
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&libraries=places&callback=initMap" async defer></script>-->
 
+
+
 <dom-module id="ch-mapselect">
   <template>
 
@@ -45,12 +47,8 @@
 
   <script>
 
-    var initMap = function(){
-      var editor = document.querySelector("ch-mapselect");
-      editor.mapinit();
-    }
+    Polymer({
 
-   Polymer({
       is: 'ch-mapselect',
 
       properties: {
@@ -71,8 +69,7 @@
       },
 
       ready: function() {
-
-
+        el = this;
       },
 
       attached: function() {
@@ -204,6 +201,6 @@
       },
 
     })
-  </script>
 
+  </script>
 </dom-module>
